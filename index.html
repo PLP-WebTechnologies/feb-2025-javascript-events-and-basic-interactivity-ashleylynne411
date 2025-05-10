@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Welcome to My Interactive Page. Have Fun.</h1>
+    <p id="description">Click the buttons below to interact with the page.</p>
+    
+    <button id="changeTextBtn">Click Me</button>
+    <p id="message">Hello there!</p>
+    <input type="text" id="textInput" placeholder="Type something...">
+
+    <button id="colorBtn">Change Color</button>
+    <img id="gallery" src="https://images.pexels.com/photos/31672030/pexels-photo-31672030/free-photo-of-charming-flower-shopfront-in-muswell-hill-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Building Image">
+    <button onclick="nextImage()">Next Image</button>
+
+    <form id="signupForm">
+        <input type="email" id="emailInput" placeholder="Enter email">
+        <span id="emailFeedback"></span>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <div id="dynamicContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

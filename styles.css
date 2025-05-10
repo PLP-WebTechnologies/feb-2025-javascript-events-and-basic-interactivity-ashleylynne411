@@ -1,0 +1,44 @@
+button {
+    background-color: darkcyan;
+    color: goldenrod;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+p {
+    transition: color 0.3s ease;
+}
+
+#colorBtn {
+    background-color: darkcyan;
+    color: violet;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
+}
+
+#colorBtn:hover {
+    background-color: crimson;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    padding: 0%;
+    margin-left: 0px;
+    border-style: double;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#emailFeedback {
+    font-size: 14px;
+    transition: color 0.4s ease-in-out;
+}
